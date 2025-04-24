@@ -1,35 +1,42 @@
-import React, { Component } from "react";
 import $ from "jquery";
+import React, { Component } from "react";
 import "./App.scss";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
-class App extends Component {
+const LANGUAGES = {
+  ENGLISH: 0,
+  FRENCH: 1,
+  ARABIC: 2,
+};
 
+class App extends Component {
   constructor(props) {
     super();
     this.state = {
       foo: "bar",
       resumeData: {},
       sharedData: {},
+      pickedLanguage: LANGUAGES.ENGLISH,
     };
   }
 
-  applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
+  applyPickedLanguage(pickedLanguage) {
+    this.setState({ ...this.state, pickedLanguage });
+    /* this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
     var resumePath =
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
         : `res_secondaryLanguage.json`;
-    this.loadResumeFromPath(resumePath);
+    this.loadResumeFromPath(resumePath);  */
   }
 
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
+  /* swapCurrentlyActiveLanguage(oppositeLangIconId) {
     var pickedLangIconId =
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
@@ -40,14 +47,14 @@ class App extends Component {
     document
       .getElementById(pickedLangIconId)
       .setAttribute("filter", "brightness(40%)");
-  }
+  } */
 
   componentDidMount() {
     this.loadSharedData();
-    this.applyPickedLanguage(
+    /* this.applyPickedLanguage(
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
-    );
+    ); */
   }
 
   loadResumeFromPath(path) {
@@ -84,14 +91,16 @@ class App extends Component {
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
+          <button
+            onClick={() => this.applyPickedLanguage(LANGUAGES.ENGLISH)}
+            style={{
+              all: "unset",
+              display: "inline",
+              filter:
+                this.state.pickedLanguage !== LANGUAGES.ENGLISH &&
+                "brightness(40%)",
+            }}
+            aria-label="Switch to English"
           >
             <span
               className="iconify language-icon mr-5"
@@ -99,23 +108,43 @@ class App extends Component {
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
-          </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
+          </button>
+          <button
+            onClick={() => this.applyPickedLanguage(LANGUAGES.FRENCH)}
+            style={{
+              all: "unset",
+              display: "inline",
+              filter:
+                this.state.pickedLanguage !== LANGUAGES.FRENCH &&
+                "brightness(40%)",
+            }}
+            aria-label="Switch to French"
           >
             <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              className="iconify language-icon mr-5"
+              data-icon="twemoji-flag-for-flag-france"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
-          </div>
+          </button>
+          <button
+            onClick={() => this.applyPickedLanguage(LANGUAGES.ARABIC)}
+            style={{
+              all: "unset",
+              display: "inline",
+              filter:
+                this.state.pickedLanguage !== LANGUAGES.ARABIC &&
+                "brightness(40%)",
+            }}
+            aria-label="Switch to Arabic"
+          >
+            <span
+              className="iconify language-icon"
+              data-icon="twemoji-flag-for-flag-saudi-arabia"
+              data-inline="false"
+              id={window.$secondaryLanguageIconId}
+            ></span>
+          </button>
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
