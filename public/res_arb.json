@@ -1,19 +1,21 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "name": "أحمد البهلول",
+      "titles": ["مطور برامج", "مطور برامج موبايل", "مهندس بيانات"],
+      "description_header": "Cześć",
+      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
       "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
+        "about": "O mnie",
+        "projects": "Projekty",
+        "skills": "Umiejętności",
+        "experience": "Doświadczenie"
       }
     },
     "projects": [
       {
         "title": "Animal Shelter",
         "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
@@ -37,7 +39,7 @@
       {
         "title": "Photography",
         "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
@@ -57,7 +59,7 @@
       {
         "title": "3D Object Viewer",
         "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -83,7 +85,7 @@
       {
         "company": "DefOpenSource",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "years": "10.2019 - obecnie",
         "mainTech": [
           "Angular 8/9/10"
         ],
@@ -94,22 +96,20 @@
           "Bootstrap",
           "MDBootstrap",
           "EF Core",
-          ".NET Core",
-          "SignalR",
           "Angular Material"
         ]
       },
       {
         "company": "Serros Solutions",
-        "title": "Intern",
+        "title": "Stażystka",
         "years": "01.2018 - 09.2019",
         "mainTech": [
           "Angular 7/8"
         ],
         "technologies": [
+          "REST API",
           "RxJS",
-          "Django",
-          "PHP",
+          "Swagger",
           "JavaScript",
           "DHTMLX Gantt"
         ]

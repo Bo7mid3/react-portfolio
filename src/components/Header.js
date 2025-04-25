@@ -1,18 +1,18 @@
 import React, { Component } from "react";
-import Typical from "react-typical";
 import Switch from "react-switch";
+import Typical from "react-typical";
 
 class Header extends Component {
   titles = [];
 
   constructor() {
     super();
-    this.state = { checked: false };
+    this.state = { isDarkTheme: true };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
-  onThemeSwitchChange(checked) {
-    this.setState({ checked });
+  onThemeSwitchChange(isDarkTheme) {
+    this.setState({ isDarkTheme });
     this.setTheme();
   }
 
@@ -25,9 +25,9 @@ class Header extends Component {
   }
 
   render() {
-    if (this.props.sharedData) {
-      var name = this.props.sharedData.name;
-      this.titles = this.props.sharedData.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
+    if (this.props.resumeDataBasicInfo) {
+      var name = this.props.resumeDataBasicInfo.name;
+      this.titles = this.props.resumeDataBasicInfo.titles.map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
@@ -48,7 +48,7 @@ class Header extends Component {
                 <HeaderTitleTypeAnimation />
               </div>
               <Switch
-                checked={this.state.checked}
+                checked={this.state.isDarkTheme}
                 onChange={this.onThemeSwitchChange}
                 offColor="#baaa80"
                 onColor="#353535"

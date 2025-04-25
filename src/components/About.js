@@ -1,14 +1,12 @@
-import React, { Component } from "react";
-import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
+import { Icon } from "@iconify/react";
+import React, { Component } from "react";
+import profilePic from "../assets/images/profile.jpg";
 
 class About extends Component {
   render() {
-    if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
-    }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
@@ -27,8 +25,9 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
-                    src={profilepic}
+                    src={profilePic}
                     alt="Avatar placeholder"
+                    style={{border: "2px solid rgba(0,0,0,.125)", borderRadius: "3px"}}
                   />
                   <Icon
                     icon={angularIcon}

@@ -1,0 +1,110 @@
+{
+  "basic_info": {
+    "name": "Ahmed Bahloul",
+    "titles": ["Full-stack Developer", "Mobile App Developer", "Data Engineer"],
+    "description_header": "Hi",
+    "description": "👋 I'm Ahmed Bahloul. I’m a versatile Full Stack Developer with 2+ years of hands-on experience in web and mobile development, data extraction, and AI-powered workflows. Backed by an engineering degree and a licenciate in computer science, I blend strong technical fundamentals with creative problem-solving.\nI’ve delivered end-to-end solutions as a full-stack web developer, leveraging modern frameworks and tools—including AI assistants like GitHub Copilot—to boost productivity and code quality. Whether building responsive interfaces, designing scalable backends, or automating data pipelines, I’m dedicated to exceeding client expectations and turning ideas into impactful digital experiences.\nLet’s collaborate and create something exceptional!",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Animal Shelter",
+      "startDate": "2020",
+      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "Photography",
+      "startDate": "2018",
+      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "3D Object Viewer",
+      "startDate": "2015",
+      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "DefOpenSource",
+      "title": "Front-End Developer",
+      "years": "10.2019 - present",
+      "mainTech": ["Angular 8/9/10"],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        ".NET Core",
+        "SignalR",
+        "Angular Material"
+      ]
+    },
+    {
+      "company": "Serros Solutions",
+      "title": "Intern",
+      "years": "01.2018 - 09.2019",
+      "mainTech": ["Angular 7/8"],
+      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+    }
+  ]
+}

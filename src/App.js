@@ -9,55 +9,47 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 const LANGUAGES = {
-  ENGLISH: 0,
-  FRENCH: 1,
-  ARABIC: 2,
+  ENGLISH: {
+    id: 0,
+    resumePath: "res_eng.json",
+  },
+  FRENCH: {
+    id: 1,
+    resumePath: "res_fr.json",
+  },
+  ARABIC: {
+    id: 2,
+    resumePath: "res_arb.json",
+  },
 };
 
 class App extends Component {
   constructor(props) {
     super();
+    const pickedLanguage = localStorage.getItem("pickedLanguage") 
+        ?JSON.parse(localStorage.getItem("pickedLanguage"))
+        :LANGUAGES.ENGLISH;
     this.state = {
       foo: "bar",
       resumeData: {},
       sharedData: {},
-      pickedLanguage: LANGUAGES.ENGLISH,
+      pickedLanguage
     };
   }
 
   applyPickedLanguage(pickedLanguage) {
     this.setState({ ...this.state, pickedLanguage });
-    /* this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
-    this.loadResumeFromPath(resumePath);  */
+    localStorage.setItem("pickedLanguage", JSON.stringify(pickedLanguage));
+    this.loadResumeFromPath(pickedLanguage.resumePath);
   }
-
-  /* swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
-  } */
 
   componentDidMount() {
     this.loadSharedData();
-    /* this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    ); */
+    this.loadResumeFromPath(this.state.pickedLanguage.resumePath);
   }
 
   loadResumeFromPath(path) {
+    console.log(path);
     $.ajax({
       url: path,
       dataType: "json",
@@ -66,7 +58,7 @@ class App extends Component {
         this.setState({ resumeData: data });
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        console.log(err);
       },
     });
   }
@@ -81,7 +73,7 @@ class App extends Component {
         document.title = `${this.state.sharedData.basic_info.name}`;
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        console.log(err);
       },
     });
   }
@@ -89,7 +81,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header resumeDataBasicInfo={this.state.resumeData.basic_info}  />
         <div className="col-md-12 mx-auto text-center language">
           <button
             onClick={() => this.applyPickedLanguage(LANGUAGES.ENGLISH)}
@@ -97,7 +89,7 @@ class App extends Component {
               all: "unset",
               display: "inline",
               filter:
-                this.state.pickedLanguage !== LANGUAGES.ENGLISH &&
+                this.state.pickedLanguage.id !== LANGUAGES.ENGLISH.id &&
                 "brightness(40%)",
             }}
             aria-label="Switch to English"
@@ -115,7 +107,7 @@ class App extends Component {
               all: "unset",
               display: "inline",
               filter:
-                this.state.pickedLanguage !== LANGUAGES.FRENCH &&
+                this.state.pickedLanguage.id !== LANGUAGES.FRENCH.id &&
                 "brightness(40%)",
             }}
             aria-label="Switch to French"
@@ -133,7 +125,7 @@ class App extends Component {
               all: "unset",
               display: "inline",
               filter:
-                this.state.pickedLanguage !== LANGUAGES.ARABIC &&
+                this.state.pickedLanguage.id !== LANGUAGES.ARABIC.id &&
                 "brightness(40%)",
             }}
             aria-label="Switch to Arabic"

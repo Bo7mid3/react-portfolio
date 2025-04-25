@@ -29,6 +29,14 @@ html {
 	width: 150px;
 }
 
+body[data-theme="dark"] .header-icon {
+	color: #fff; /* Color for dark theme */
+}
+
+body[data-theme="light"] .header-icon {
+	color: #000; /* Color for light theme */
+}
+
 header {
 	position: relative;
 	height: 520px;

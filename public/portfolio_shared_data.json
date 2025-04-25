@@ -1,7 +1,5 @@
 {
   "basic_info": {
-    "name": "Ahmed Bahloul",
-    "titles": ["Full-stack Developer", "Mobile App Developer", "Data Engineer"],
     "social": [
       {
         "name": "github",
@@ -29,9 +27,14 @@
         "level": "95"
       },
       {
-        "name": "Angular",
-        "class": "devicon-angularjs-plain",
-        "level": "80"
+        "name": "PHP",
+        "class": "devicon-php-plain",
+        "level": "70"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
       },
       {
         "name": "TypeScript",
@@ -39,9 +42,34 @@
         "level": "90"
       },
       {
-        "name": "JavaScript",
-        "class": "devicon-javascript-plain",
-        "level": "70"
+        "name": "Node.js",
+        "class": "devicon-nodejs-plain",
+        "level": "60"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "90"
+      },
+      {
+        "name": "Spring boot",
+        "class": "devicon-spring-original",
+        "level": "90"
+      },
+      {
+        "name": "Angular",
+        "class": "devicon-angularjs-plain",
+        "level": "80"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "80"
+      },
+      {
+        "name": "React Native",
+        "class": "devicon-react-plain",
+        "level": "80"
       },
       {
         "name": "Sass",
@@ -54,13 +82,23 @@
         "level": "85"
       },
       {
-        "name": "C#",
-        "class": "devicon-csharp-plain",
-        "level": "65"
-      },
-      {
         "name": "MySql",
         "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+      {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain",
+        "level": "60"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "60"
+      },
+      {
+        "name": "Playwright",
+        "class": "devicon-playwright-plain",
         "level": "60"
       }
     ]
