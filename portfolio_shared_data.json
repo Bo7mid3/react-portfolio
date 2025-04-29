@@ -1,0 +1,107 @@
+{
+  "basic_info": {
+    "title": "Ahmed Bahloul | portfolio",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/Bo7mid3",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/med9087",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "PHP",
+        "class": "devicon-php-plain",
+        "level": "70"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
+      },
+      {
+        "name": "Node.js",
+        "class": "devicon-nodejs-plain",
+        "level": "60"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "90"
+      },
+      {
+        "name": "Spring boot",
+        "class": "devicon-spring-original",
+        "level": "90"
+      },
+      {
+        "name": "Angular",
+        "class": "devicon-angularjs-plain",
+        "level": "80"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "80"
+      },
+      {
+        "name": "React Native",
+        "class": "devicon-react-plain",
+        "level": "80"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+      {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain",
+        "level": "60"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "60"
+      },
+      {
+        "name": "Playwright",
+        "class": "devicon-playwright-plain",
+        "level": "60"
+      }
+    ]
+  }
+}

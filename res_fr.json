@@ -1,0 +1,159 @@
+{
+  "basic_info": {
+    "name": "Ahmed Bahloul",
+    "titles": [
+      "Développeur Full-stack",
+      "Développeur Mobile",
+      "Ingénieur en Données"
+    ],
+    "description_header": "Bonjour",
+    "description": "👋 Je suis Ahmed Bahloul. Je suis un développeur Full Stack polyvalent avec plus de 2 ans d'expérience pratique en développement web et mobile, en extraction de données et en workflows alimentés par l'IA. Fort d'un diplôme d'ingénieur et d'une licence en informatique, je combine de solides bases techniques avec une approche créative de la résolution de problèmes.\nJ'ai livré des solutions complètes en tant que développeur web full-stack, en exploitant des frameworks et outils modernes — y compris des assistants IA comme GitHub Copilot — pour améliorer la productivité et la qualité du code. Que ce soit pour créer des interfaces réactives, concevoir des backends évolutifs ou automatiser des pipelines de données, je m'engage à dépasser les attentes des clients et à transformer les idées en expériences digitales percutantes.\nCollaborons et créons ensemble quelque chose d'exceptionnel !",
+    "section_name": {
+      "about": "À propos",
+      "projects": "Projets",
+      "skills": "Compétences",
+      "experience": "Expérience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Catch Me If You Can",
+      "startDate": "2025",
+      "description": "Catch Me If You Can est un jeu rapide basé sur le navigateur où les joueurs cliquent sur un emoji fuyant qui se déplace de manière imprévisible. Le jeu devient plus difficile à mesure que l'emoji accélère, avec des défis comme le rétrécissement, les leurres et les obstacles. Avec des visuels vibrants, des sons ludiques et un système de score, c'est amusant pour tous les âges. Le jeu est encore en version 1 pour l'instant.",
+      "images": [
+        "images/portfolio/catch-me-if-you-can/catch-me-if-you-can-pick-1.jpg",
+        "images/portfolio/catch-me-if-you-can/catch-me-if-you-can-pick-2.jpg"
+      ],
+      "mainImage": "images/portfolio/catch-me-if-you-can/catch-me-if-you-can-pick-1.jpg",
+      "url": "https://bo7mid3.github.io/catch-me-if-you-can/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML "
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
+        }
+      ]
+    },
+    {
+      "title": "Agil ERP",
+      "startDate": "2020",
+      "description": "J'ai conçu et développé une application web ERP personnalisée pour le département de distribution de lubrifiants chez AGIL, basée sur une collaboration directe et une collecte des besoins auprès des parties prenantes clés. L'application centralise et simplifie la gestion des clients, prospects, produits, emballages, activités de la chaîne d'approvisionnement et utilisateurs. Elle a été spécifiquement conçue pour simplifier les opérations quotidiennes des différents profils d'utilisateurs, notamment les commerciaux, les magasiniers et les administrateurs, en leur fournissant des fonctionnalités adaptées pour améliorer l'efficacité et la coordination au sein du département.",
+      "mainImage": "images/portfolio/agil-crm/auth.png",
+      "images": [
+        "images/portfolio/agil-crm/dashboard.png",
+        "images/portfolio/agil-crm/add-client.png",
+        "images/portfolio/agil-crm/add-dist.png",
+        "images/portfolio/agil-crm/list-dist.png",
+        "images/portfolio/agil-crm/add-prd.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML "
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
+        }
+      ]
+    },
+    {
+      "title": "Valo énergie",
+      "startDate": "2023",
+      "description": "J'ai conçu et développé une application web permettant l'évaluation des demandes de financement liées à l'énergie pour une banque d'investissement. Le système fournit un scoring automatique selon divers critères, en tenant compte des spécificités des différents projets énergétiques. Il simplifie et structure le processus d'évaluation pour les experts métiers et les représentants d'investissement, les aidant à prendre des décisions éclairées plus efficacement. D'un point de vue technique, le projet était particulièrement précieux car il a été construit en utilisant une architecture microservices et a intégré des données provenant d'API gouvernementales publiques.",
+      "mainImage": "images/portfolio/valo-energie/auth.jpg",
+      "images": [
+        "images/portfolio/valo-energie/scores.jpg",
+        "images/portfolio/valo-energie/map-input-dialog.jpg",
+        "images/portfolio/valo-energie/finish.jpg",
+        "images/portfolio/valo-energie/fill-tech.jpg",
+        "images/portfolio/valo-energie/fill-missing-pic.jpg",
+        "images/portfolio/valo-energie/fill-miss.jpg",
+        "images/portfolio/valo-energie/échec-pic.jpg",
+        "images/portfolio/valo-energie/echec-acq.png",
+        "images/portfolio/valo-energie/consulter-review.jpg",
+        "images/portfolio/valo-energie/br-list.jpg",
+        "images/portfolio/valo-energie/authentication-interface.png",
+        "images/portfolio/valo-energie/add-miss.jpg",
+        "images/portfolio/valo-energie/add-fd-2.jpg",
+        "images/portfolio/valo-energie/add-fd-1.jpg"
+      ],
+      "url": "",
+      "technologies": []
+    }
+  ],
+  "experience": [
+    {
+      "company": "Talan Tunisie",
+      "title": "Développeur Full-Stack",
+      "years": "Oct 2023 - Avr 2025 · 1 an 7 mois",
+      "mainTech": ["Spring Boot", "Angular", "PostgreSQL"],
+      "technologies": [
+        "REST API",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Java",
+        "TypeScript",
+        "Bootstrap",
+        "Playwright",
+        "MongoDB",
+        "Talend",
+        "GIS"
+      ]
+    },
+    {
+      "company": "Talan Tunisie",
+      "title": "Développeur Full-Stack - Stagiaire",
+      "years": "Fév 2023 - Juin 2023 · 5 mois",
+      "mainTech": ["Angular", "Spring Boot", "PostgreSQL", "GIS"],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Java",
+        "QGIS"
+      ]
+    },
+    {
+      "company": "Wimbee",
+      "title": "Développeur Business Intelligence - Stagiaire",
+      "years": "Juil 2022 - Août 2022 · 2 mois",
+      "mainTech": [
+        "Microsoft Power BI",
+        "Microsoft SQL Server",
+        "Talend",
+        "SQL Server Analysis Services (SSAS)"
+      ],
+      "technologies": ["DAX", "SQL"]
+    },
+    {
+      "company": "SNDP (Société Nationale de Distribution des Pétroles AGIL S.A)",
+      "title": "Développeur Full Stack - Stagiaire",
+      "years": "Fév 2020 - Juil 2020 · 6 mois",
+      "mainTech": ["React", "Spring Boot", "MySQL"],
+      "technologies": []
+    }
+  ]
+}
