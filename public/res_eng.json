@@ -13,98 +13,148 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "title": "Catch me if you can",
+      "startDate": "2025",
+      "description": "Catch Me If You Can is a fast-paced browser game where players click on a fleeing emoji that moves unpredictably. The game gets harder as the emoji speeds up, with challenges like shrinking, decoys, and obstacles. Featuring vibrant visuals, playful sounds, and a scoring system, it’s fun for all ages. The game is still in v1 though.",
+      "mainImage": "images/portfolio/catch-me-if-you-can/catch-me-if-you-can-pick-1.jpg",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/catch-me-if-you-can/catch-me-if-you-can-pick-1.jpg",
+        "images/portfolio/catch-me-if-you-can/catch-me-if-you-can-pick-2.jpg"
       ],
-      "url": "",
+      "url": "https://bo7mid3.github.io/catch-me-if-you-can/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-html5-plain",
+          "name": "HTML "
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         },
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "title": "Agil ERP",
+      "startDate": "2020",
+      "description": "I designed and developed a custom ERP web application for the lubricants distribution department at AGIL, based on direct collaboration and requirements gathering with key stakeholders. The application centralizes and streamlines the management of clients, leads, products, packaging, supply chain activities, and users. It was specifically built to simplify day-to-day operations for diverse user profiles including sales personnel, storekeepers, and administrators, providing each with tailored functionalities to improve efficiency and coordination within the department.",
+      "mainImage": "images/portfolio/agil-crm/auth.png",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/agil-crm/dashboard.png",
+        "images/portfolio/agil-crm/add-client.png",
+        "images/portfolio/agil-crm/add-dist.png",
+        "images/portfolio/agil-crm/list-dist.png",
+        "images/portfolio/agil-crm/add-prd.png"
       ],
-      "url": "https://github.com",
+      "url": "",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-html5-plain",
+          "name": "HTML "
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
+        }
+      ]
+    },
+    {
+      "title": "Valo energy",
+      "startDate": "2023",
+      "description": "I designed and developed a web application that allows the evaluation of energy-related funding requests for an investment bank. The system provides automatic scoring across various criteria, taking into account the specificities of different energy-related projects. It simplifies and structures the evaluation process for business experts and investment representatives, helping them make informed decisions more efficiently. From a technical perspective, the project was particularly valuable as it was built using a microservices architecture and integrated data from publicly available government APIs.",
+      "mainImage": "images/portfolio/valo-energie/auth.jpg",
+      "images": [
+        "images/portfolio/valo-energie/scores.jpg",
+        "images/portfolio/valo-energie/map-input-dialog.jpg",
+        "images/portfolio/valo-energie/finish.jpg",
+        "images/portfolio/valo-energie/fill-tech.jpg",
+        "images/portfolio/valo-energie/fill-missing-pic.jpg",
+        "images/portfolio/valo-energie/fill-miss.jpg",
+        "images/portfolio/valo-energie/échec-pic.jpg",
+        "images/portfolio/valo-energie/echec-acq.png",
+        "images/portfolio/valo-energie/consulter-review.jpg",
+        "images/portfolio/valo-energie/br-list.jpg",
+        "images/portfolio/valo-energie/authentication-interface.png",
+        "images/portfolio/valo-energie/add-miss.jpg",
+        "images/portfolio/valo-energie/add-fd-2.jpg",
+        "images/portfolio/valo-energie/add-fd-1.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML "
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     }
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "Talan Tunisie",
+      "title": "Full-Stack Developer",
+      "years": "Oct 2023 - Apr 2025 · 1 yr 7 mos",
+      "mainTech": ["Spring Boot", "Angular", "PostgreSQL"],
       "technologies": [
         "REST API",
-        "RxJS",
         "JavaScript",
+        "HTML",
+        "CSS",
+        "Java",
+        "TypeScript",
         "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Playwright",
+        "MongoDB",
+        "Talend",
+        "GIS"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "Talan Tunisie",
+      "title": "Full-Stack Developer - Intern",
+      "years": "Feb 2023 - Jun 2023 · 5 mos",
+      "mainTech": ["Angular", "Spring Boot", "PostgreSQL", "GIS"],
+      "technologies": ["JavaScript", "TypeScript", "HTML", "CSS", "Java", "QGIS"]
+    },
+    {
+      "company": "Wimbee",
+      "title": "Business Intelligence Developer - Intern",
+      "years": "Jul 2022 - Aug 2022 · 2 mos",
+      "mainTech": ["Microsoft Power BI", "Microsoft SQL Server", "Talend", "SQL Server Analysis Services (SSAS)"],
+      "technologies": ["DAX", "SQL"]
+    },
+    {
+      "company": "SNDP (Société Nationale de Distribution des Pétroles AGIL S.A)",
+      "title": "Full Stack Developer - Intern",
+      "years": "Feb 2020 - Jul 2020 · 6 mos",
+      "mainTech": ["React", "Spring Boot", "MySQL"],
+      "technologies": []
     }
   ]
 }

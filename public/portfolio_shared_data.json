@@ -1,5 +1,6 @@
 {
   "basic_info": {
+    "title": "Ahmed Bahloul | portfolio",
     "social": [
       {
         "name": "github",
@@ -8,7 +9,7 @@
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com",
+        "url": "https://www.instagram.com/med9087",
         "class": "fab fa-instagram"
       }
     ],
