@@ -56,20 +56,16 @@
       "url": "",
       "technologies": [
         {
-          "class": "devicon-html5-plain",
-          "name": "HTML "
+          "class": "devicon-spring-original",
+          "name": "Spring"
         },
         {
-          "class": "devicon-css3-plain",
-          "name": "CSS"
+          "class": "devicon-angular-plain",
+          "name": "Angular"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-jquery-plain",
-          "name": "jQuery"
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
         }
       ]
     },
@@ -97,20 +93,16 @@
       "url": "",
       "technologies": [
         {
-          "class": "devicon-html5-plain",
-          "name": "HTML "
+          "class": "devicon-spring-original",
+          "name": "Spring"
         },
         {
-          "class": "devicon-css3-plain",
-          "name": "CSS"
+          "class": "devicon-angular-plain",
+          "name": "Angular"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-jquery-plain",
-          "name": "jQuery"
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
         }
       ]
     }

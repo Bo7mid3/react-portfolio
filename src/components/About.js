@@ -3,7 +3,6 @@ import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
 import { Icon } from "@iconify/react";
 import React, { Component } from "react";
-import profilePic from "../assets/images/profile.jpg";
 
 class About extends Component {
   render() {
@@ -11,6 +10,7 @@ class About extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
+      var image = this.props.sharedBasicInfo.image;
     }
 
     return (
@@ -25,7 +25,7 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
-                    src={profilePic}
+                    src={`${process.env.PUBLIC_URL}/${image}`}
                     alt="Avatar placeholder"
                     style={{border: "2px solid rgba(0,0,0,.125)", borderRadius: "3px"}}
                   />
