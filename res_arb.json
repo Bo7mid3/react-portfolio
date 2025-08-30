@@ -118,25 +118,6 @@
   "experience": [
     {
       "company": "Talan تونس",
-      "title": "Full-stack مظور برمجيات",
-      "years": "أكتوبر 2023 - أبريل 2025 · سنة و7 أشهر",
-      "mainTech": ["Spring Boot", "Angular", "PostgreSQL"],
-      "technologies": [
-        "REST API",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Java",
-        "TypeScript",
-        "Bootstrap",
-        "Playwright",
-        "MongoDB",
-        "Talend",
-        "GIS"
-      ]
-    },
-    {
-      "company": "Talan تونس",
       "title":  "متدرب - Full-Stack مظور برمجيات",
       "years": "فبراير 2023 - يونيو 2023 · 5 أشهر",
       "mainTech": ["Angular", "Spring Boot", "PostgreSQL", "GIS"],

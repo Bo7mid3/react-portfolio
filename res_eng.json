@@ -110,25 +110,6 @@
   "experience": [
     {
       "company": "Talan Tunisie",
-      "title": "Full-Stack Developer",
-      "years": "Oct 2023 - Apr 2025 · 1 yr 7 mos",
-      "mainTech": ["Spring Boot", "Angular", "PostgreSQL"],
-      "technologies": [
-        "REST API",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Java",
-        "TypeScript",
-        "Bootstrap",
-        "Playwright",
-        "MongoDB",
-        "Talend",
-        "GIS"
-      ]
-    },
-    {
-      "company": "Talan Tunisie",
       "title": "Full-Stack Developer - Intern",
       "years": "Feb 2023 - Jun 2023 · 5 mos",
       "mainTech": ["Angular", "Spring Boot", "PostgreSQL", "GIS"],
